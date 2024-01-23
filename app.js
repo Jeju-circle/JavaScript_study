@@ -15,3 +15,4 @@ function handleMouseLeave() {
 h1.addEventListener("click", handleTitleClick);
 h1.addEventListener("mouseenter", handleMouseEnter);
 h1.addEventListener("mouseleave", handleMouseLeave);
+alert="hi"
