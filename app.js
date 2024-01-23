@@ -1,17 +1,17 @@
-const title = document.querySelector(".hello h1");
+const h1 = document.querySelector(".hello h1");
 
 function handleTitleClick() {
-    title.style.color = "blue";
+    h1.style.color = "blue";
 }
 
 function handleMouseEnter() {
-    title.innerHTML = "mouse is here!"
+    h1.innerHTML = "mouse is here!"
 }
 
 function handleMouseLeave() {
-    title.innerHTML = "mouse is gone!"
+    h1.innerHTML = "mouse is gone!"
 }
 
-title.addEventListener("click", handleTitleClick);
-title.addEventListener("mouseenter", handleMouseEnter);
-title.addEventListener("mouseleave", handleMouseLeave);
+h1.addEventListener("click", handleTitleClick);
+h1.addEventListener("mouseenter", handleMouseEnter);
+h1.addEventListener("mouseleave", handleMouseLeave);
