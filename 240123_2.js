@@ -12,4 +12,4 @@ function onLoginSubmit(event) {
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 
-Loginform.addEventListener("submit", onLoginSubmit);
+Loginform.addEventListener("submit", onLoginSubmit); //240326
